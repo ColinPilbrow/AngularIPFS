@@ -1,0 +1,18 @@
+mat-grid-tile {
+  background: lightblue;
+}
+
+.caption {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s linear;
+  margin-bottom: 36px;
+  word-wrap: break-word;
+}
+
+
+mat-grid-tile:hover .caption {
+  opacity: 1;
+  transition: all 0.3s linear;
+  visibility: visible;
+}

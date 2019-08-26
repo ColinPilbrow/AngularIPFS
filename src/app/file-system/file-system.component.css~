@@ -1,0 +1,9 @@
+mat-grid-tile {
+  background: lightblue;
+}
+
+mat-grid-tile:hover {
+  opacity: 1;
+  transition: all 0.3s linear;
+  visibility: visible;
+}

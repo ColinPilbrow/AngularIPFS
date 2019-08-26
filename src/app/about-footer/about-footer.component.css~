@@ -1,0 +1,32 @@
+mat-grid-tile {
+  background: lightblue;
+}
+.Main-technology-title {
+    padding: 10px;
+    background: rgba(0,0,0,.5);
+    font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+}
+
+.Main-technology {
+    display: webkit-box;
+    display: webkit-flex;
+    display: ms-flexbox;
+    display: flex;
+    background: rgba(0,0,0,.5);
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.Main-technology-content {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-left: 35px;
+    padding-right: 35px;
+text-align: center;
+}

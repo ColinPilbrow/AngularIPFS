@@ -1,0 +1,19 @@
+mat-grid-tile {
+  background: lightblue;
+}
+.Main-dropzone {
+    cursor: pointer;
+    background-color: rgba(0,0,0,.5);
+    font-size: 18px;
+    text-align: center;
+    border: 2px dashed #fff;
+    border-radius: 10px;
+    color: #fff;
+    padding: 100px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.uploadicon {
+    cursor: pointer;
+    width: 30px;
+}
