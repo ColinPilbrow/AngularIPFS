@@ -1,16 +1,22 @@
 # AngularIPFS
 Requirements:
+
 Linux. We are using Ubuntu 18.04.3 LTS (Bionic Beaver).
+
 npm.
+
 Truffle: npm install -g truffle
+
 Angular CLI: npm install -g @angular/cli
+
 Ganache.
+
 ipfs.
 
 Instructions:
 Open Ganache and open a workspace.
-Compile the contracts and migrate them to the private ganache blockchain.
 
+The contracts have already been compiled but if any changes need to be made use the following command:
 truffle compile && truffle migrate
 
 Run ipfs:
